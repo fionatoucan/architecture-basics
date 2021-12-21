@@ -1,0 +1,76 @@
+# Logfile created on 2021-12-21 16:18:48 +0100 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:18:48 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1e5f0aa2] Running /usr/bin/env mkdir -p /tmp as root@46.101.94.177
+ DEBUG [1e5f0aa2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:28:45 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ ERROR chruby: chruby_ruby is not set
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:29:00 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1833aad9] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [1833aad9] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:39:20 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ca5c2560] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [ca5c2560] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:39:42 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c2c0f889] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [c2c0f889] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:51:28 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7674b2c4] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [7674b2c4] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:53:58 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3d0f2d0c] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [3d0f2d0c] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 16:54:13 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7f36c273] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [7f36c273] Command: /usr/bin/env which passenger
+ DEBUG [7f36c273] 	/usr/bin/passenger
+ DEBUG [7f36c273] Finished in 1.419 seconds with exit status 0 (successful).
+  INFO [5dc4bfb8] Running /usr/bin/env mkdir -p /tmp as root@46.101.94.177
+ DEBUG [5dc4bfb8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5dc4bfb8] Finished in 0.104 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-c45f62fa78d6355a2bfa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-c45f62fa78d6355a2bfa.sh 100.0%
+  INFO [18491ee1] Running /usr/bin/env chmod 700 /tmp/git-ssh-c45f62fa78d6355a2bfa.sh as root@46.101.94.177
+ DEBUG [18491ee1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-c45f62fa78d6355a2bfa.sh
+  INFO [18491ee1] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [2411076e] Running /usr/bin/env git ls-remote git@github.com:fionatoucan/architecture-basics.git HEAD as root@46.101.94.177
+ DEBUG [2411076e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c45f62fa78d6355a2bfa.sh" ; /usr/bin/env git ls-remote git@github.com:fionatoucan/architecture-basics.git HEAD )
+ DEBUG [2411076e] 	862960a2451ab3e4b6f2a35d0c0f8eed69bc1f47	HEAD
+  INFO [2411076e] Finished in 1.552 seconds with exit status 0 (successful).
+  INFO [f420a488] Running /usr/bin/env mkdir -p /var/www/simple_api/shared /var/www/simple_api/releases as root@46.101.94.177
+ DEBUG [f420a488] Command: /usr/bin/env mkdir -p /var/www/simple_api/shared /var/www/simple_api/releases
+  INFO [f420a488] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-21 17:25:20 +0100 cap production git:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b4283c36] Running /usr/bin/env which passenger as root@46.101.94.177
+ DEBUG [b4283c36] Command: /usr/bin/env which passenger
+ DEBUG [b4283c36] 	/usr/bin/passenger
+ DEBUG [b4283c36] Finished in 1.189 seconds with exit status 0 (successful).
+  INFO [a4f0547a] Running /usr/bin/env mkdir -p /tmp as root@46.101.94.177
+ DEBUG [a4f0547a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a4f0547a] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-911ec476e25b9d19f5fc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-911ec476e25b9d19f5fc.sh 100.0%
+  INFO [211e5aa1] Running /usr/bin/env chmod 700 /tmp/git-ssh-911ec476e25b9d19f5fc.sh as root@46.101.94.177
+ DEBUG [211e5aa1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-911ec476e25b9d19f5fc.sh
+  INFO [211e5aa1] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO [39a2cabd] Running /usr/bin/env git ls-remote git@github.com:fionatoucan/architecture-basics.git HEAD as root@46.101.94.177
+ DEBUG [39a2cabd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-911ec476e25b9d19f5fc.sh" ; /usr/bin/env git ls-remote git@github.com:fionatoucan/architecture-basics.git HEAD )
+ DEBUG [39a2cabd] 	862960a2451ab3e4b6f2a35d0c0f8eed69bc1f47	HEAD
+  INFO [39a2cabd] Finished in 1.716 seconds with exit status 0 (successful).

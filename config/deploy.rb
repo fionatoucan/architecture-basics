@@ -1,8 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "simple_api"
+set :repo_url, "git@github.com:fionatoucan/architecture-basics.git"
+set :chruby_ruby, "ruby-2.6.6"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
